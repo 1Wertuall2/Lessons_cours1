@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "HelveticaWorld";
+	src: url("../fonts/HelveticaWorld-Regular.woff2") format("woff2"), url("../fonts/HelveticaWorld-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HelveticaWorld";
+	src: url("../fonts/HelveticaWorld-Bold.woff2") format("woff2"), url("../fonts/HelveticaWorld-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  margin: 15px 0 98px;
+  color: #1E212C;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+  color: #1E212C;
+}
+
+.container{
+  max-width: 830px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-img{
+  margin-bottom: 60px;
+}
+
+.text-one{
+  margin-bottom: 38px;
+}
+
+.text-two{
+  margin-bottom: 48px;
+}
+
+.allotted{
+  margin-left: 58px;
+  margin-bottom: 48px;
+}
+
+.text-three{
+  margin-bottom: 24px;
+}
+
+.list{
+  margin-left: 32px;
+  margin-bottom: 24px;
+}
+
+.text-four{
+  margin-bottom: 92px;
+}
+
+.homework{
+  font-family: "HelveticaWorld", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #212529;
+  text-shadow: 4px 5px 10px #212529;
+}
+
+.title{
+  font-family: "HelveticaWorld", sans-serif;
+  max-height: 400px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #274652;
+  background-color: cadetblue;
+  box-shadow: 12px 12px 10px darkslategray;
+  border: 10px solid #1E212C;
+  overflow: scroll;
+  margin-bottom: 55px;
+  padding: 20px;
+} 
+
+.img{
+  box-shadow: 15px 15px 10px dodgerblue, -15px -15px 10px #14ffe9;
+  border-radius: 50%;
+  width: 500px;
+  height: 350px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.duo{
+  margin-bottom: 55px;
+}
+
+.button{
+  display: inline-block;
+	background-color: dodgerblue;
+  max-width: 250px;
+	padding: 15px;
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: 5px 8px 10px #000;
+	transition: all 0.5s ease 0s;
+  margin-left: 25px;
+}
+
+.button:hover{
+	margin-top: 5px;
+	box-shadow: 2px 3px 10px #000;
+  color: darkseagreen;
+}
+
+.duo-text{
+  background-color: mediumspringgreen;
+  padding: 20px;
+  outline: dashed;
+}
+
+.kosadaka{
+  margin-bottom: 55px;
+}
+
+.kosadaka-text{
+  background-color: olivedrab;
+  padding: 20px;
+  border: 20px solid red;
+  border-radius: 20%;
+}
+
+.megabass{
+  margin-bottom: 55px;
+}
+
+.megabass-text{
+  background-color: goldenrod;
+  padding: 20px;
+  border: 20px dotted yellowgreen;
+  box-shadow: 10px 10px 13px indigo;
+}
+
+.jackall{
+  margin-bottom: 55px;
+}
+
+.jackall-text{
+  background-color: skyblue;
+  padding: 20px;
+  border: 20px double teal;
+  box-shadow: -10px -10px 13px lightsalmon;
+  opacity: 0.4;
+}
+
+.zipbaits{
+  margin-bottom: 30px;
+}
+
+.zipbaits-text{
+  background-color: navajowhite;
+  padding: 20px;
+  border: 20px solid teal;
+  opacity: 0.8;
+  box-shadow: 10px 10px 10px inset forestgreen, -10px -10px 10px inset hotpink ;
+}
+
+.voblers{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.box {
+	background-color: mediumaquamarine;
+  max-width: 150px;
+	padding: 15px;
+  margin: 0 15px 0 15px;
+	color: rebeccapurple;
+  border-radius: 10%;
+}
