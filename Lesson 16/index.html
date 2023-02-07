@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 16</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Homework lesson 16</h1>
+        <h2 class="header__subtitle">Form</h2>
+      </div>
+    </header>
+    <main class="form">
+      <div class="form__container">
+        <form class="form__inner" action="https://jsonplaceholder.typicode.com/posts" enctype="multipart/form-data" method="post" >
+          <div class="form__line">
+            <label class="form__label" for="name1">Enter your name</label>
+            <input class="form__input" id="name1" required type="text" name="name" placeholder="Enter your name">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="email1">Enter your E-mail</label>
+            <input class="form__input" id="email1" type="email" name="email" placeholder="Enter your E-mail">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="phone1">Your phone number</label>
+            <input class="form__input" id="phone1" placeholder="Your phone number" name="phone" type="tel">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="pass">Enter your password</label>
+            <input class="form__input" id="pass" placeholder="Enter your password" name="pass" type="password">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="digi">Enter your number</label>
+            <input class="form__input" id="digi" placeholder="Enter your number" name="digi" type="number">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="color">Enter your color</label>
+            <input class="form__input" id="color" name="color" type="color">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="search">Enter a search query</label>
+            <input class="form__input" id="search" placeholder="Enter a search query" name="search" type="search">
+          </div>
+          <div class="form__line">
+            <label class="form__label" for="date">Date of Birth</label>
+            <input class="form__input" id="date" name="date" type="date">
+          </div>
+          <div class="form__line">
+            <input class="form__input-range" id="range" name="range" type="range">
+          </div>
+          <div class="form__line">
+            <div class="form__title">What is the best beer?</div>
+            <div class="form__radio">
+              <input checked class="form__input_radio" id="pet-01" required value="ale" name="pet"
+                type="radio">
+              <label class="form__label" for="pet-01">Ale</label>
+            </div>
+            <div class="form__radio">
+              <input class="form__input_radio" id="pet-02" required name="pet" value="mixed"
+                type="radio">
+              <label class="form__label" for="pet-02">Mixed</label>
+            </div>
+            <div class="form__radio">
+              <input class="form__input_radio" id="pet-03" name="pet" value="lager"
+                type="radio">
+              <label class="form__label" for="pet-03">Lager</label>
+            </div>
+          </div>
+          <div class="form__line">
+            <div class="checkbox">
+              <input class="checkbox__input" id="age" type="checkbox" value="yes" name="age" >
+              <label for="age" class="checkbox__label"><span class="checkbox__text">You are 21 years old?</span></label>
+            </div>
+          </div>
+          <div class="form__line">
+            <label class="input__file">
+              <input type="file" name="file">
+              <span class="input__file-btn">Select file</span>
+              <span class="input__file-text">File not selected</span>
+            </label>
+          </div>
+          <div class="form__line">
+            <textarea class="form__area" placeholder="Enter your message" name="message"></textarea>
+          </div>
+          <div class="form__line">
+            <select class="form__list"  name="list">
+              <option value="">Section 1</option>
+              <option value="">Section 2</option>
+              <option value="">Section 3</option>
+              <option value="">Section 4</option>
+              <option value="">Section 5</option>
+            </select>
+          </div>
+          <div class="form__line">
+            <button class="form__button" type="submit">Button</button>
+            <input type="hidden" value="wert" name="iam-hidden">
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="hwork">
+      <div class="hwork__container">
+        <div class="hwork__content">
+          <div class="hwork__image">
+            <img class="hwork__img" src="img/illustration.svg" alt="Decor">
+          </div>
+          <div class="hwork__form form-block">
+            <div class="form-block__title-block">
+              <h3 class="form-block__subtitle">Any questions?</h3>
+              <h2 class="form-block__title">Drop us a line</h2>
+            </div>
+            <form class="form-block__inner" action="https://jsonplaceholder.typicode.com/posts" enctype="multipart/form-data" method="post">
+              <div class="form-block__item">
+                <div class="form-block__box">
+                  <div class="form-block__line">
+                    <label class="form-block__label" for="name2">First Name*</label>
+                    <input class="form-block__input" id="name2" required type="text" name="name" placeholder="Your first name">
+                  </div>
+                  <div class="form-block__line">
+                    <label class="form-block__label" for="name3">Last Name*</label>
+                    <input class="form-block__input" id="name3" required type="text" name="name" placeholder="Your last name">
+                  </div>
+                </div>
+                <div class="form-block__box">
+                  <div class="form-block__line">
+                    <label class="form-block__label" for="email2">Email*</label>
+                    <input class="form-block__input" id="email2" required type="email" name="email" placeholder="Your working email">
+                  </div>
+                  <div class="form-block__line">
+                    <label class="form-block__label" for="phone2">Phone</label>
+                    <input class="form-block__input" id="phone2" name="phone" type="tel" placeholder="Your phone number">
+                  </div>
+                </div>
+                <div class="form-block__message">
+                  <label class="form-block__label" for="message1">Message*</label>
+                  <textarea class="form-block__area" name="message" id="message1" required placeholder="Your message"></textarea>
+                </div>
+              </div>
+              <div class="form-block__button button-block">
+                <div class="button-block__checkbox">
+                  <input class="button-block__input" id="agre" type="checkbox" value="yes" name="agre">
+                  <label class="button-block__label" for="agre"><span class="button-block__text">I agree to receive communications from Createx Online School</span></label>
+                </div>
+                <div class="button-block__button">
+                  <button class="button-block__button-message" type="submit">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
