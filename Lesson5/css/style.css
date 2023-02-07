@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4a4a4a;
+}
+
+img{
+  margin: 20px 20px;
+}
+
+a{
+  color: red;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 20px;
+  line-height: 19px;
+
+}
+
+p+p{
+  margin-top: 15px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 19px;
+  color: black;
+  text-align: center;
+  text-shadow: 3px 3px 3px #232222;
+  margin-top: 20px;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: darkslategray;
+  text-align: center;
+  margin: 25px 25px;
+}
+
+.container{
+  max-width: 1150px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__img{
+  margin: 30px 30px;
+  box-shadow: 5px 5px 20px 25px #4a4a4a;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 40px 20px;
+  text-align: center;
+  color: #232222;
+}
+
+.text p{
+  background-color: silver;
+  padding: 20px;
+}
+
+.model{
+  margin-bottom: 20px;
+}
+
+.list{
+  background-color: silver;
+  margin: 20px 20px 20px;
+}
+
+.list li{
+  padding: 10px 20px;
+}
+
+.motor{
+  text-transform: lowercase;
+}
+
+.vehicles{
+  text-transform: capitalize;
+}
+
+.weight{
+  text-transform: uppercase;
+}
+
+.conduct{
+  text-decoration: underline;
+}
+
+.conclusions{
+  text-decoration: overline;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.footer p{
+  color: beige;
+  letter-spacing: 7px;
+}
