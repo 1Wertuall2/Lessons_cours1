@@ -1,0 +1,191 @@
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+h3{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: yellowgreen;
+}
+.header-list{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: red;
+}
+.header p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: grey;
+}
+.type-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: green;
+}
+.type-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.type-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #3d7ee5;
+}
+.material-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: brown;
+}
+.material-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.material-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #3d7ee5;
+}
+.regime-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: crimson;
+}
+.regime-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.regime-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #3d7ee5;
+}
+.regime-list{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: fuchsia;
+}
+.regime-coment{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: dimgray;
+}
+.regime-coment span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: cyan;
+}
+.weight-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: coral;
+}
+.weight-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.weight-list{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: fuchsia;
+}
+.weight-coment{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: dimgray;
+}
+.weight-coment span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: cyan;
+}
+.furniture-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: darkcyan;
+}
+.furniture-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.furniture-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: cyan;
+}
+.glad-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: mediumpurple;
+}
+.glad-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.glad-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: cyan;
+}
+.cheklist-title{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: darkorange;
+}
+.cheklist-text{
+  font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: darkslategray;
+}
+.cheklist-text span{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: cyan;
+}
+.footer{
+  background-color: #555555;
+  text-align: center;
+}
+.foter-text{
+font-family: 'Larsseit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: burlywood;
+}
