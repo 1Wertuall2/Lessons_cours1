@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+[class*="__container"] {
+  max-width: 1940px;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+	line-height: 160%;
+}
+
+.header__container{
+  max-width: 1920px;
+  background: darkcyan;
+  text-align: center;
+  padding: 20px;
+}
+
+.header__content {
+  display: block;
+  background: thistle;
+  color: #424551;
+  text-transform: uppercase;
+  border-radius: 20px;
+  max-width: 450px;
+  height: 60px;
+  margin: 15px auto;
+  padding: 5px;
+}
+
+.header__content:hover{
+  background: red;
+  max-width: 1000px;
+  transition: all 0.8s ease 0s;
+}
+
+.header__decor {
+  display: block;
+  background: thistle;
+  color: #424551;
+  text-transform: uppercase;
+  border-radius: 20px;
+  max-width: 450px;
+  height: 60px;
+  margin: 15px auto;
+  padding: 5px;
+}
+
+.header__decor:hover{
+  background: green;
+  max-width: 1000px;
+  transition: all 0.8s ease 0s;
+}
+
+.header__ikon {
+  display: block;
+  background: thistle;
+  color: #424551;
+  text-transform: uppercase;
+  border-radius: 20px;
+  max-width: 450px;
+  height: 60px;
+  margin: 15px auto;
+  padding: 5px;
+}
+
+.header__ikon:hover{
+  background: blue;
+  max-width: 1000px;
+  transition: all 0.8s ease 0s;
+}
+
+.homepage__container{
+  margin-bottom: 50px;
+}
