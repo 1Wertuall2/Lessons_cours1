@@ -1,0 +1,76 @@
+h1{
+  color: black;
+  font-weight: 700;
+  font-size: 57px;
+}
+h2{
+  color: darkblue;
+  font-weight: 400;
+  font-size: 36px;
+  width: 1100px;
+}
+p{
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 28px;
+  width: 1100px;
+}
+span{
+  color: red;
+  font-weight: 400;
+  font-size: 32px;
+}
+.text p{
+  color: grey;
+  font-size: 26px;
+}
+.Husqvarna {
+  color: blueviolet;
+  font-size: 34px;
+}
+.КТМ {
+  color: brown;
+  font-size: 34px;
+}
+.GasGas {
+  color: cadetblue;
+  font-size: 34px;
+}
+.RedMoto {
+  color: chartreuse;
+  font-size: 34px;
+}
+.Sherco {
+  color: chocolate;
+  font-size: 34px;
+}
+.ТМ {
+  color: crimson;
+  font-size: 34px;
+}
+.Beta {
+  color: darkgoldenrod;
+  font-size: 34px;
+}
+.Fantic {
+  color: forestgreen;
+  font-size: 34px;
+}
+.Rieju {
+  color: midnightblue;
+    font-size: 34px;
+}
+.description{
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 24px;
+  width: 1100px;
+}
+.footer{
+  max-width: 1100px;
+  background-color: black;
+  text-align: center;
+}
+.footer__text p{
+  color: azure;
+}
