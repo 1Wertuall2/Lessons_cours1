@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "HelveticaWorld";
+	src: url("../fonts/HelveticaWorld-Regular.woff2") format("woff2"), url("../fonts/HelveticaWorld-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HelveticaWorld";
+	src: url("../fonts/HelveticaWorld-Bold.woff2") format("woff2"), url("../fonts/HelveticaWorld-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  margin: 15px 0 98px;
+  color: #1E212C;
+}
+
+h2{
+  font-family: "HelveticaWorld", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+  color: #1E212C;
+}
+
+.container{
+  max-width: 830px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-img{
+  margin-bottom: 60px;
+}
+
+.text-one{
+  margin-bottom: 38px;
+}
+
+.text-two{
+  margin-bottom: 48px;
+}
+
+.allotted{
+  margin-left: 58px;
+  margin-bottom: 48px;
+}
+
+.text-three{
+  margin-bottom: 24px;
+}
+
+.list{
+  margin-left: 32px;
+  margin-bottom: 24px;
+}
+
+.text-four{
+  margin-bottom: 92px;
+}
+
+.footer{
+  background:url(../img/bentley.jpg) 0 0 / 400px no-repeat fixed ,url(../img/bentley.jpg) right 0 / 400px no-repeat fixed, linear-gradient( #09afbd , #0565b2 , #192d34) ;
+}
+
+.title{
+  font-family: "HelveticaWorld", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: crimson;
+  text-align: center;
+}
+
+.footer-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 20px;
+  color: #09afbd;
+}
+
+.bentley{
+  background:url(../img/rolls.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.cadillac{
+  background:url(../img/cadillac.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.dodge{
+  background:url(../img/dodge.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.mercedes{
+  background:url(../img/mercedes.jpg) center no-repeat , linear-gradient( #424551, #09afbd ,#0565b2);
+  background-size: auto 300px;
+  margin-bottom: 50px;
+}
+
+.button{
+  display: inline-block;
+	transition: all 0.3s ease 0s;
+  margin-left: 405px;
+}
+
+.button:hover{
+	margin-top: 5px;
+}
+
+.button-img{
+  width: 60px;
+  height: 60px;
+}
